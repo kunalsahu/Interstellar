@@ -18,17 +18,17 @@
 # Setup K8s components
 #######################
 
-- hosts: etcd
+- hosts: tag_ansibleNodeType_etcd
   roles:
     - common
     - etcd
 
-- hosts: controller
+- hosts: tag_ansibleNodeType_controller
   roles:
     - common
     - controller
 
-- hosts: worker
+- hosts: tag_ansibleNodeType_worker
   roles:
     - common
     - worker

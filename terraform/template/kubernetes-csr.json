@@ -23,8 +23,7 @@
     "${worker0_dns}",
     "${worker1_dns}",
     "${worker2_dns}",
-    "${kubernetes_api_elb_dns_name}",
-    "127.0.0.1"
+    "${kubernetes_api_elb_dns_name}"
   ],
   "key": {
     "algo": "rsa",
